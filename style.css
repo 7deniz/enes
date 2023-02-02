@@ -18,7 +18,7 @@ html {
   justify-content: center;
   flex-direction: row;
   list-style: none;
-  font-size: 2.4rem;
+  font-size: 2rem;
   gap: 2.4rem;
 }
 .main-nav-link {
@@ -27,31 +27,43 @@ html {
   color: #000;
   background-color: #7fffd4;
   border-radius: 25%;
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem;
 }
 h1 {
   font-size: 4rem;
 }
-
+.icon-turkflag {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 .section-hero {
   width: 200vh;
   height: 100vh;
   padding: 2rem;
 
-  background-color: #f3cccc;
+  background-color: #ebe4e4;
   color: #000;
 }
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
+  margin: auto;
 }
 .hero-text-box {
+  padding-right: 2rem;
+  margin-right: 2rem;
 }
 .hero-heading {
   font-size: 3.6rem;
   margin-top: 3.6rem;
+}
+.polish-flag {
+  width: 2rem;
+  height: 2rem;
+  padding-left: 0.2rem;
 }
 .hero-description {
   font-size: 3rem;
@@ -66,11 +78,20 @@ h1 {
   /* justify-content: center;
   align-items: center; */
 }
-.hero-img,
+
 .hero-img2 {
-  width: 70%;
-  height: 90%;
-  /* display: flex;  */
+  width: 100%;
+
+  /* display: flex; */
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.208);
+  transition: all 0.4s;
+}
+
+.hero-img {
+  width: 80%;
+
+  display: flex;
   border-radius: 2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.208);
   transition: all 0.4s;
