@@ -9,7 +9,7 @@ html {
 }
 .main-nav {
   padding: 0.5rem;
-  background-color: #363636;
+  background-color: #fff;
 }
 .main-nav-list {
   display: flex;
@@ -24,8 +24,8 @@ html {
 .main-nav-link {
   display: block;
   text-decoration: none;
-  color: #000;
-  background-color: #7fffd4;
+  color: #fff;
+  background-color: #e41717;
   border-radius: 25%;
   padding: 0.5rem 1.5rem;
 }
@@ -37,9 +37,10 @@ h1 {
   height: 2.5rem;
 }
 .section-hero {
-  width: 200vh;
+  width: 195vh;
   height: 100vh;
-  padding: 2rem;
+  padding: 6rem 4rem 0 2rem;
+  /* margin-top: 2rem; */
 
   background-color: #ebe4e4;
   color: #000;
@@ -74,17 +75,13 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
 }
-.hero-images {
-  /* justify-content: center;
-  align-items: center; */
-}
 
 .hero-img2 {
   width: 100%;
 
   /* display: flex; */
   border-radius: 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.208);
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
   transition: all 0.4s;
 }
 
@@ -93,10 +90,37 @@ h1 {
 
   display: flex;
   border-radius: 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.208);
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
   transition: all 0.4s;
 }
 .hero-img:hover,
 .hero-img2:hover {
   transform: scale(1.1);
+}
+
+/* Section About */
+#about {
+  background-color: #ede7e7;
+  font-size: 3.6rem;
+  padding: 2rem;
+  text-align: center;
+}
+.section-about {
+  background-color: #ede7e7;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.img-about {
+  width: 70%;
+  margin-left: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
+}
+
+.text-about {
+  font-size: 3rem;
+  line-height: 4rem;
+  margin: 2rem;
 }
