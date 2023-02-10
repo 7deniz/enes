@@ -31,6 +31,7 @@ html {
 }
 h1 {
   font-size: 4rem;
+  font-family: Roboto;
 }
 .icon-turkflag {
   width: 2.5rem;
@@ -47,7 +48,7 @@ h1 {
 }
 .hero {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -85,14 +86,14 @@ h1 {
   transition: all 0.4s;
 }
 
-.hero-img {
+/* .hero-img {
   width: 80%;
 
   display: flex;
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
   transition: all 0.4s;
-}
+} */
 .hero-img:hover,
 .hero-img2:hover {
   transform: scale(1.1);
@@ -123,4 +124,52 @@ h1 {
   font-size: 3rem;
   line-height: 4rem;
   margin: 2rem;
+}
+/* Section my university */
+#university {
+  background-color: #ede7e7;
+  font-size: 3.6rem;
+  padding: 2rem;
+  text-align: center;
+}
+.amu-logo {
+  width: 10rem;
+  height: 5rem;
+  vertical-align: bottom;
+}
+.amu-logo:hover {
+  width: 12rem;
+  height: 6rem;
+}
+.section-my-university {
+  background-color: #ede7e7;
+}
+.my-university {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.text-university {
+  font-size: 3rem;
+  line-height: 4rem;
+  margin: 2rem;
+}
+.img-faculty-eng {
+  width: 90%;
+  margin-left: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  margin: 2rem 2rem 4rem 8rem;
+  align-items: center;
+  justify-content: center;
+}
+.gallery img {
+  width: 80%;
+  border-radius: 2rem;
 }
