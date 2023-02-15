@@ -41,7 +41,6 @@ h1 {
   width: 195vh;
   height: 100vh;
   padding: 6rem 4rem 0 2rem;
-  /* margin-top: 2rem; */
 
   background-color: #ebe4e4;
   color: #000;
@@ -76,25 +75,19 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
 }
-
+.hero-images {
+}
+.hero-image {
+  font-size: 3rem;
+}
 .hero-img2 {
   width: 100%;
 
-  /* display: flex; */
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
   transition: all 0.4s;
 }
 
-/* .hero-img {
-  width: 80%;
-
-  display: flex;
-  border-radius: 2rem;
-  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
-  transition: all 0.4s;
-} */
-.hero-img:hover,
 .hero-img2:hover {
   transform: scale(1.1);
 }
@@ -103,8 +96,17 @@ h1 {
 #about {
   background-color: #ede7e7;
   font-size: 3.6rem;
-  padding: 2rem;
+  padding: 4rem;
   text-align: center;
+}
+.abo {
+  position: relative;
+}
+.about {
+  position: absolute;
+  font-size: 3rem;
+  right: 40rem;
+  top: -1rem;
 }
 .section-about {
   background-color: #ede7e7;
@@ -116,6 +118,7 @@ h1 {
 }
 .img-about {
   width: 70%;
+  margin-top: 2rem;
   margin-left: 2rem;
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
@@ -161,6 +164,7 @@ h1 {
 .img-faculty-eng {
   width: 90%;
   margin-left: 2rem;
+  margin-top: 4rem;
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
 }
@@ -175,6 +179,40 @@ h1 {
 .gallery img {
   width: 80%;
   border-radius: 2rem;
+}
+.fac {
+  position: relative;
+}
+.facul {
+  margin-top: 4rem;
+}
+.faculty {
+  position: absolute;
+  font-size: 3rem;
+  right: 40rem;
+}
+.univ {
+  position: relative;
+}
+.univer {
+  margin-top: 4rem;
+}
+.university {
+  position: absolute;
+  font-size: 3rem;
+  right: 40rem;
+}
+.dorm {
+  position: relative;
+}
+.dormit {
+  margin-top: 4rem;
+}
+.dormitory {
+  position: absolute;
+  font-size: 3rem;
+  right: 40rem;
+  /* top: 0.5rem; */
 }
 /* section-Poznan */
 #poznan {
@@ -196,6 +234,111 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4rem;
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
+}
+
+.old {
+  position: relative;
+}
+.town-hall {
+  position: absolute;
+  font-size: 3rem;
+  left: 20rem;
+  top: 0.5rem;
+}
+.section-poznan-first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  padding-bottom: 4rem;
+}
+.text-poznan-first,
+.text-poznan-second {
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.section-poznan-second {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+.img-castle {
+  width: 80%;
+  border-radius: 2rem;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
+  margin-top: 4rem;
+}
+
+.castle {
+  position: relative;
+}
+.imperial-castle {
+  position: absolute;
+  font-size: 3rem;
+  right: 15rem;
+}
+.section-poznan-third {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  margin-left: 2rem;
+}
+.img-section-poznan-third {
+  width: 80%;
+  order-radius: 2rem;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
+}
+.park {
+  margin-top: 4rem;
+}
+
+.first {
+  position: relative;
+}
+.citadel-park {
+  position: absolute;
+
+  left: 21rem;
+  font-size: 3rem;
+}
+.lake {
+  margin-top: 4rem;
+}
+.second {
+  position: relative;
+}
+.lake-malta {
+  position: absolute;
+  font-size: 3rem;
+  right: 40rem;
+}
+.avm {
+  margin-top: 4rem;
+}
+.third {
+  position: relative;
+}
+.stary-mall {
+  position: absolute;
+  font-size: 3rem;
+  left: 21rem;
+}
+.town {
+  margin-top: 4rem;
+}
+.fourth {
+  position: relative;
+}
+.old-town {
+  position: absolute;
+  font-size: 3rem;
+  right: 40rem;
 }
