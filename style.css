@@ -52,6 +52,7 @@ h1 {
   justify-content: center;
   overflow: hidden;
   margin: auto;
+  margin-right: 4rem;
 }
 .hero-text-box {
   padding-right: 2rem;
@@ -74,6 +75,7 @@ h1 {
 .btn {
   font-size: 2rem;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .hero-image {
@@ -286,7 +288,7 @@ h1 {
 .imperial-castle {
   position: absolute;
   font-size: 3rem;
-  right: 15rem;
+  right: 25rem;
 }
 .section-poznan-third {
   display: grid;
