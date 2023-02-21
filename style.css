@@ -259,10 +259,11 @@ h1 {
   padding-bottom: 4rem;
   margin-bottom: 4rem;
   margin-right: 10rem;
+  gap: 2rem;
 }
 .text-poznan-first,
 .text-poznan-second {
-  font-size: 3rem;
+  font-size: 2.6rem;
 
   margin-top: 2rem;
 }
@@ -271,6 +272,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-left: 2rem;
+  margin-right: 4rem;
   padding-bottom: 4rem;
   margin-bottom: 4rem;
 }
@@ -280,6 +282,7 @@ h1 {
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
   margin-top: 4rem;
+  margin-left: 4rem;
 }
 
 .castle {
@@ -295,6 +298,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
   margin-left: 2rem;
+  padding-bottom: 2rem;
 }
 .img-section-poznan-third {
   width: 80%;
@@ -352,7 +356,7 @@ h1 {
 #warsaw {
   background-color: #ede7e7;
   font-size: 3.6rem;
-  padding: 2rem;
+  padding-top: 4rem;
   text-align: center;
   text-decoration: none !important;
   padding-top: 4rem;
