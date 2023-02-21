@@ -38,9 +38,9 @@ h1 {
   height: 2.5rem;
 }
 .section-hero {
-  width: 195vh;
+  width: 205vh;
   height: 100vh;
-  padding: 6rem 4rem 0 2rem;
+  padding: 6rem 10rem 0 2rem;
 
   background-color: #ebe4e4;
   color: #000;
@@ -75,8 +75,7 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
 }
-.hero-images {
-}
+
 .hero-image {
   font-size: 3rem;
 }
@@ -102,12 +101,12 @@ h1 {
 .abo {
   position: relative;
 }
-.about {
+/* .about {
   position: absolute;
   font-size: 3rem;
   right: 40rem;
   top: -1rem;
-}
+} */
 .section-about {
   background-color: #ede7e7;
   padding: 2rem;
@@ -115,6 +114,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding-bottom: 4rem;
+  padding-right: 10rem;
 }
 .img-about {
   width: 70%;
@@ -182,6 +182,7 @@ h1 {
 }
 .fac {
   position: relative;
+  margin-right: 10rem;
 }
 .facul {
   margin-top: 4rem;
@@ -189,7 +190,7 @@ h1 {
 .faculty {
   position: absolute;
   font-size: 3rem;
-  right: 40rem;
+  right: 25rem;
 }
 .univ {
   position: relative;
@@ -232,6 +233,7 @@ h1 {
 }
 .img-poznan1 {
   display: block;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4rem;
@@ -253,12 +255,13 @@ h1 {
   grid-template-columns: 1fr 1fr;
   margin: auto;
   padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 10rem;
 }
 .text-poznan-first,
 .text-poznan-second {
   font-size: 3rem;
-  text-align: center;
-  justify-content: center;
+
   margin-top: 2rem;
 }
 .section-poznan-second {
@@ -266,10 +269,10 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-left: 2rem;
-  padding-bottom: 2rem;
-  justify-content: center;
-  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
 }
+
 .img-castle {
   width: 80%;
   border-radius: 2rem;
@@ -293,7 +296,7 @@ h1 {
 }
 .img-section-poznan-third {
   width: 80%;
-  order-radius: 2rem;
+  border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
 }
 .park {
@@ -341,4 +344,56 @@ h1 {
   position: absolute;
   font-size: 3rem;
   right: 40rem;
+}
+
+/* Section Warsaw */
+#warsaw {
+  background-color: #ede7e7;
+  font-size: 3.6rem;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none !important;
+  padding-top: 4rem;
+}
+#warsaw:hover {
+  font-size: 4.2rem;
+}
+.section-warsaw {
+  background-color: #ede7e7;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
+}
+.section-warsaw-first {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.img-warsaw1 {
+  width: 70%;
+  margin-top: 3rem;
+}
+.text-warsaw {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.img-warsaw2 {
+  width: 70%;
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+.war1 {
+  position: relative;
+}
+.warsaw1-old {
+  position: absolute;
+  font-size: 2rem;
+  right: 25rem;
+}
+.war2 {
+  position: relative;
+}
+.warsaw2-cafe {
+  position: absolute;
+  font-size: 2rem;
+  right: 15rem;
 }
