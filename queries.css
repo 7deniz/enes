@@ -1,0 +1,65 @@
+/***********
+Below 1000px (tablets)
+*************/
+@media (max-width: 63em) {
+  #about {
+    padding-top: 4rem;
+  }
+  .faculty1 {
+    right: 5rem;
+  }
+  .town-hall {
+    left: 10rem;
+    top: 0.5rem;
+  }
+  .imperial-castle {
+    right: 6.5rem;
+  }
+  .lake-malta {
+    right: 10rem;
+  }
+  .old-town {
+    right: 10rem;
+  }
+  .warsaw1-old {
+    right: 7.5rem;
+  }
+  .warsaw2-cafe {
+    right: 1px;
+  }
+}
+/***********
+Below 768px (tablets)
+*************/
+@media (max-width: 48em) {
+  #about {
+    padding-top: 6rem;
+  }
+  .section-about {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+  .text-about {
+    line-height: 2rem;
+  }
+  .my-university {
+    grid-template-columns: 1fr;
+  }
+  .text-university {
+    line-height: 2rem;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  .section-poznan-first,
+  .section-poznan-second {
+    grid-template-columns: 1fr;
+  }
+  .text-poznan-first {
+    margin-left: 2rem;
+  }
+  .section-warsaw-first {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* 755px altı eksik */

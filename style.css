@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 1em;
 }
 .main-nav {
   padding: 0.5rem;
@@ -18,7 +18,7 @@ html {
   justify-content: center;
   flex-direction: row;
   list-style: none;
-  font-size: 2rem;
+  font-size: calc(2rem+4vw);
   gap: 2.4rem;
 }
 .main-nav-link {
@@ -30,7 +30,7 @@ html {
   padding: 0.5rem 1.5rem;
 }
 h1 {
-  font-size: 4rem;
+  font-size: calc(4rem+8vw);
   font-family: Roboto;
 }
 .icon-turkflag {
@@ -38,9 +38,9 @@ h1 {
   height: 2.5rem;
 }
 .section-hero {
-  width: 205vh;
-  height: 100vh;
-  padding: 6rem 10rem 0 2rem;
+  max-width: 205vh;
+  max-height: 100vh;
+  padding: 6rem 10rem 2rem 2rem;
 
   background-color: #ebe4e4;
   color: #000;
@@ -53,13 +53,14 @@ h1 {
   overflow: hidden;
   margin: auto;
   margin-right: 4rem;
+  margin-bottom: 2rem;
 }
 .hero-text-box {
   padding-right: 2rem;
   margin-right: 2rem;
 }
 .hero-heading {
-  font-size: 3.6rem;
+  font-size: calc(3.6rem+7.2vw);
   margin-top: 3.6rem;
 }
 .polish-flag {
@@ -68,18 +69,17 @@ h1 {
   padding-left: 0.2rem;
 }
 .hero-description {
-  font-size: 3rem;
+  font-size: calc(3rem+6vw);
   margin-top: 3rem;
   padding-bottom: 2.4rem;
 }
 .btn {
-  font-size: 2rem;
+  font-size: calc(2rem+4vw);
   font-weight: bold;
   text-decoration: none;
 }
-
 .hero-image {
-  font-size: 3rem;
+  font-size: calc(3rem+6vw);
 }
 .hero-img2 {
   width: 100%;
@@ -96,8 +96,8 @@ h1 {
 /* Section About */
 #about {
   background-color: #ede7e7;
-  font-size: 3.6rem;
-  padding: 4rem;
+  font-size: calc(3.6rem+7.2vw);
+  padding-top: 2rem;
   text-align: center;
 }
 .abo {
@@ -127,46 +127,56 @@ h1 {
 }
 
 .text-about {
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: calc(3rem+6vw);
+  line-height: 3rem;
   margin: 2rem;
 }
 /* Section my university */
 #university {
   background-color: #ede7e7;
-  font-size: 3.6rem;
+  font-size: calc(3.6rem+7.2vw);
   padding: 2rem;
   text-align: center;
   padding-top: 4rem;
 }
 .amu-logo {
-  width: 10rem;
-  height: 5rem;
+  width: 6rem;
+  height: 3rem;
   vertical-align: bottom;
 }
 .amu-logo:hover {
-  width: 12rem;
-  height: 6rem;
+  width: 8rem;
+  height: 4rem;
 }
 .section-my-university {
   background-color: #ede7e7;
   padding-bottom: 4rem;
+  /* padding-right: 6rem; */
 }
 .my-university {
   padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  margin-right: 6rem;
 }
 .text-university {
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: calc(3rem+6vw);
+  line-height: 3rem;
   margin: 2rem;
+}
+.fac1 {
+  position: relative;
+}
+.faculty1 {
+  position: absolute;
+  font-size: calc(3rem+6vw);
+  right: 20rem;
 }
 .img-faculty-eng {
   width: 90%;
   margin-left: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
 }
@@ -174,7 +184,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
-  margin: 2rem 2rem 0 8rem;
+  margin: 2rem 2rem 0 6rem;
   align-items: center;
   justify-content: center;
 }
@@ -184,50 +194,50 @@ h1 {
 }
 .fac {
   position: relative;
-  margin-right: 10rem;
+  /* margin-right: 6rem; */
 }
 .facul {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .faculty {
   position: absolute;
-  font-size: 3rem;
-  right: 25rem;
+  font-size: calc(3rem+6vw);
+  right: 20rem;
 }
 .univ {
   position: relative;
 }
 .univer {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .university {
   position: absolute;
-  font-size: 3rem;
-  right: 40rem;
+  font-size: calc(3rem+6vw);
+  right: 20rem;
 }
 .dorm {
   position: relative;
 }
 .dormit {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .dormitory {
   position: absolute;
-  font-size: 3rem;
-  right: 40rem;
+  font-size: calc(3rem+6vw);
+  right: 20rem;
   /* top: 0.5rem; */
 }
 /* section-Poznan */
 #poznan {
   background-color: #ede7e7;
-  font-size: 3.6rem;
+  font-size: calc(3.6rem+7.2vw);
   padding: 2rem;
   text-align: center;
   text-decoration: none !important;
   padding-top: 4rem;
 }
 #poznan:hover {
-  font-size: 4.2rem;
+  font-size: calc(4.2rem+8.4vw);
 }
 .section-poznan {
   background-color: #ede7e7;
@@ -248,7 +258,7 @@ h1 {
 }
 .town-hall {
   position: absolute;
-  font-size: 3rem;
+  font-size: calc(3rem+6vw);
   left: 20rem;
   top: 0.5rem;
 }
@@ -263,7 +273,7 @@ h1 {
 }
 .text-poznan-first,
 .text-poznan-second {
-  font-size: 2.6rem;
+  font-size: calc(2.6rem+5.2vw);
 
   margin-top: 2rem;
 }
@@ -281,7 +291,7 @@ h1 {
   width: 80%;
   border-radius: 2rem;
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-left: 4rem;
 }
 
@@ -290,7 +300,7 @@ h1 {
 }
 .imperial-castle {
   position: absolute;
-  font-size: 3rem;
+  font-size: calc(3rem+6vw);
   right: 25rem;
 }
 .section-poznan-third {
@@ -306,7 +316,7 @@ h1 {
   box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.4);
 }
 .park {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .first {
@@ -314,55 +324,54 @@ h1 {
 }
 .citadel-park {
   position: absolute;
-
-  left: 21rem;
-  font-size: 3rem;
+  left: 10rem;
+  font-size: calc(3rem+6vw);
 }
 .lake {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .second {
   position: relative;
 }
 .lake-malta {
   position: absolute;
-  font-size: 3rem;
-  right: 40rem;
+  font-size: calc(3rem+6vw) m;
+  right: 20rem;
 }
 .avm {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .third {
   position: relative;
 }
 .stary-mall {
   position: absolute;
-  font-size: 3rem;
-  left: 21rem;
+  font-size: calc(3rem+6vw);
+  left: 10rem;
 }
 .town {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .fourth {
   position: relative;
 }
 .old-town {
   position: absolute;
-  font-size: 3rem;
-  right: 40rem;
+  font-size: calc(3rem+6vw);
+  right: 20rem;
 }
 
 /* Section Warsaw */
 #warsaw {
   background-color: #ede7e7;
-  font-size: 3.6rem;
+  font-size: calc(3.6rem+7.2vw);
   padding-top: 4rem;
   text-align: center;
   text-decoration: none !important;
   padding-top: 4rem;
 }
 #warsaw:hover {
-  font-size: 4.2rem;
+  font-size: calc(4.2rem+8.4vw);
 }
 .section-warsaw {
   background-color: #ede7e7;
@@ -373,13 +382,14 @@ h1 {
 .section-warsaw-first {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 10rem;
 }
 .img-warsaw1 {
   width: 70%;
   margin-top: 3rem;
 }
 .text-warsaw {
-  font-size: 3rem;
+  font-size: calc(3rem+6vw);
   margin-top: 2rem;
 }
 .img-warsaw2 {
@@ -392,14 +402,16 @@ h1 {
 }
 .warsaw1-old {
   position: absolute;
-  font-size: 2rem;
-  right: 25rem;
+  font-size: calc(2rem+4vw);
+  right: 15rem;
+  top: 1rem;
 }
 .war2 {
   position: relative;
 }
 .warsaw2-cafe {
   position: absolute;
-  font-size: 2rem;
-  right: 15rem;
+  font-size: calc(2rem+4vw);
+  right: 5rem;
+  top: 1rem;
 }
