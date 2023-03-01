@@ -32,8 +32,12 @@ Below 1000px (tablets)
 Below 768px (tablets)
 *************/
 @media (max-width: 48em) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-bottom: 4rem;
+  }
   #about {
-    padding-top: 6rem;
+    padding-top: 16rem;
   }
   .section-about {
     grid-template-columns: 1fr;
