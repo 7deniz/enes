@@ -7,6 +7,13 @@
 html {
   font-size: 1em;
 }
+body {
+  overflow-x: hidden;
+}
+header {
+  position: relative;
+}
+/* section nav */
 .main-nav {
   padding: 0.5rem;
   background-color: #fff;
@@ -29,6 +36,24 @@ html {
   border-radius: 25%;
   padding: 0.5rem 1.5rem;
 }
+
+/* Mobile navigation section */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* section hero */
 h1 {
   font-size: calc(4rem+8vw);
   font-family: Roboto;
