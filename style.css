@@ -168,6 +168,7 @@ h1 {
   width: 6rem;
   height: 3rem;
   vertical-align: bottom;
+  cursor: pointer;
 }
 .amu-logo:hover {
   width: 8rem;
@@ -266,6 +267,11 @@ h1 {
   height: 2rem;
   border-radius: 2rem;
   vertical-align: bottom;
+  cursor: pointer;
+}
+.poznan-logo:hover {
+  width: 6rem;
+  height: 3rem;
 }
 .section-poznan {
   background-color: #ede7e7;
@@ -405,6 +411,12 @@ h1 {
   height: 3rem;
   vertical-align: bottom;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.logo-warsaw:hover {
+  width: 4.5rem;
+  height: 4.5rem;
 }
 .section-warsaw {
   background-color: #ede7e7;
