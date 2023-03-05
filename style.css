@@ -261,8 +261,11 @@ h1 {
   text-decoration: none !important;
   padding-top: 4rem;
 }
-#poznan:hover {
-  font-size: calc(4.2rem+8.4vw);
+.poznan-logo {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 2rem;
+  vertical-align: bottom;
 }
 .section-poznan {
   background-color: #ede7e7;
@@ -396,6 +399,12 @@ h1 {
 }
 #warsaw:hover {
   font-size: calc(4.2rem+8.4vw);
+}
+.logo-warsaw {
+  width: 3rem;
+  height: 3rem;
+  vertical-align: bottom;
+  border-radius: 50%;
 }
 .section-warsaw {
   background-color: #ede7e7;
