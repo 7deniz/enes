@@ -132,7 +132,20 @@ Mobile Navigation
 Below 555px (phones)
 *************/
 @media (max-width: 35em) {
+  #about {
+    padding-top: 12rem;
+  }
+
+  .text-about {
+    line-height: 1.6rem;
+  }
+  .text-university {
+    line-height: 1.6rem;
+  }
   .section-warsaw-first {
     grid-template-columns: 1fr;
   }
+  .img-warsaw1, .img-warsaw2 {
+    width: 85%;
 }
+/* 385px */

@@ -412,6 +412,7 @@ h1 {
 .img-warsaw1 {
   width: 70%;
   margin-top: 3rem;
+  border-radius: 2rem;
 }
 .text-warsaw {
   font-size: calc(3rem+6vw);
@@ -421,6 +422,7 @@ h1 {
   width: 70%;
   margin-top: 3rem;
   margin-left: 10rem;
+  border-radius: 2rem;
 }
 .war1 {
   position: relative;
