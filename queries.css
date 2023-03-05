@@ -1,9 +1,18 @@
 /***********
-Below 1000px (tablets)
+Below 1000px (lap-tops)
 *************/
 @media (max-width: 63em) {
   #about {
     padding-top: 4rem;
+  }
+  .section-about {
+    padding-right: 4rem;
+  }
+  .img-about {
+    width: 90%;
+  }
+  .text-about {
+    line-height: 2.4rem;
   }
   .faculty1 {
     right: 5rem;
@@ -118,4 +127,12 @@ Mobile Navigation
     font-size: 2rem;
   }
 }
-/* 555px altı eksik */
+/*  */
+/***********
+Below 555px (phones)
+*************/
+@media (max-width: 35em) {
+  .section-warsaw-first {
+    grid-template-columns: 1fr;
+  }
+}
