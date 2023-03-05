@@ -68,9 +68,6 @@ Below 768px (tablets)
   .section-poznan-second {
     grid-template-columns: 1fr;
   }
-  .text-poznan-first {
-    margin-left: 2rem;
-  }
   .text-poznan-second {
     grid-row: 2;
   }
@@ -150,4 +147,82 @@ Below 555px (phones)
     width: 85%;
   }
 }
-/* 385px */
+/***********
+Below 385px ( small phones)
+*************/
+@media (max-width: 25em) {
+  #about {
+    padding-top: 15rem;
+  }
+
+  .text-about {
+    line-height: 1.3rem;
+  }
+  .my-university {
+    margin-right: 2rem;
+  }
+  .text-university {
+    line-height: 1.3rem;
+  }
+  .img-faculty-eng {
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .gallery {
+    margin-left: 2rem;
+  }
+  .gallery img {
+    width: 100%;
+    /* margin: auto; */
+  }
+  .facul {
+    margin-top: 4rem;
+  }
+  .faculty {
+    right: 10rem;
+  }
+  .univer {
+    margin-top: 4rem;
+  }
+  .university {
+    right: 10rem;
+  }
+  .dormit {
+    margin-top: 4rem;
+  }
+  .dormitory {
+    right: 10rem;
+  }
+  .section-poznan-first {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .section-poznan-second {
+    margin-right: 2rem;
+  }
+  .img-poznan1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .img-castle {
+    width: 100%;
+    margin: auto;
+  }
+  .section-poznan-third {
+    grid-template-columns: 1fr;
+    margin-right: 2rem;
+  }
+  .img-section-poznan-third {
+    width: 98%;
+  }
+  .section-warsaw-first {
+    margin-right: 2rem;
+  }
+  .img-warsaw1,
+  .img-warsaw2 {
+    width: 100%;
+    /* margin: auto; */
+  }
+}

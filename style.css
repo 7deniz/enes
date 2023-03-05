@@ -184,6 +184,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   margin-right: 6rem;
+  gap: 1rem;
 }
 .text-university {
   font-size: calc(3rem+6vw);
@@ -250,7 +251,6 @@ h1 {
   position: absolute;
   font-size: calc(3rem+6vw);
   right: 20rem;
-  /* top: 0.5rem; */
 }
 /* section-Poznan */
 #poznan {
@@ -299,7 +299,6 @@ h1 {
 .text-poznan-first,
 .text-poznan-second {
   font-size: calc(2.6rem+5.2vw);
-
   margin-top: 2rem;
 }
 .section-poznan-second {
