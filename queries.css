@@ -225,4 +225,8 @@ Below 385px ( small phones)
     width: 100%;
     /* margin: auto; */
   }
+  .img-warsaw2 {
+    margin-right: 2rem;
+    margin-left: 0;
+  }
 }
