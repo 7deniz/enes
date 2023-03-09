@@ -1,6 +1,13 @@
 ///Make mobile navigation work
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
+// const btnLangEn = document.querySelector(".btn-lang-en");
+// const btnLangTr = document.querySelector("btn-lang-tr");
+
+// let language;
+
+// btnLangEn.addEventListener("click", function () {});
+
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
@@ -8,24 +15,25 @@ btnNavEl.addEventListener("click", function () {
 const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    e.preventDefault();
-    const href = link.getAttribute("href");
-
-    ///scroll back to top
-    if (href === "#")
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-
-    //scroll to other links
     if (href !== "#" && href.startsWith("#")) {
-      const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView({ behavior: "smooth" });
+      const href = link.getAttribute("href");
+
+      ///scroll back to top
+      if (href === "#")
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+
+      //scroll to other links
+      if (href !== "#" && href.startsWith("#")) {
+        const sectionEl = document.querySelector(href);
+        sectionEl.scrollIntoView({ behavior: "smooth" });
+      }
+      ////close mobile navigation
+      if (link.classList.contains("main-nav-link"))
+        headerEl.classList.toggle("nav-open");
     }
-    ////close mobile navigation
-    if (link.classList.contains("main-nav-link"))
-      headerEl.classList.toggle("nav-open");
   });
 });
 ////////////////sticky navigation
