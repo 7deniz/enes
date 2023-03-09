@@ -18,6 +18,26 @@ header {
   padding: 0.5rem;
   background-color: #fff;
 }
+.btn-lang {
+  position: relative;
+}
+.btn-lang-en {
+  position: absolute;
+  right: 3.2rem;
+  padding: 2px;
+  transition: all 0.5s linear;
+}
+.btn-lang-tr {
+  position: absolute;
+  right: 1rem;
+  padding: 2px;
+}
+.btn-lang-en:hover,
+.btn-lang-tr:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
 .main-nav-list {
   display: flex;
 

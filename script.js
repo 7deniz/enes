@@ -4,9 +4,9 @@ const headerEl = document.querySelector(".header");
 // const btnLangEn = document.querySelector(".btn-lang-en");
 // const btnLangTr = document.querySelector("btn-lang-tr");
 
-// let language;
-
-// btnLangEn.addEventListener("click", function () {});
+// btnLangTr.addEventListener("click", function () {
+//   load("index-tr.html");
+// });
 
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
